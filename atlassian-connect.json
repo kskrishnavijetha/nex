@@ -1,0 +1,20 @@
+{
+  "key": "nex-app",
+  "name": "Nex App",
+  "baseUrl": "https://your-app-url.com",
+  "authentication": {
+    "type": "none"
+  },
+  "modules": {
+    "generalPages": [
+      {
+        "url": "/",
+        "key": "main-page",
+        "location": "system.top.navigation.bar",
+        "name": {
+          "value": "Nex"
+        }
+      }
+    ]
+  }
+}
